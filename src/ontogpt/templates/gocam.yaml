@@ -5,10 +5,20 @@ description: >-
   A template for GO-CAMs
 license: https://creativecommons.org/publicdomain/zero/1.0/
 prefixes:
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  biolink: https://w3id.org/biolink/vocab/
   linkml: https://w3id.org/linkml/
   gocam: http://w3id.org/ontogpt/gocam/
   GO: http://purl.obolibrary.org/obo/GO_
   CL: http://purl.obolibrary.org/obo/CL_
+  CHEBI: http://purl.obolibrary.org/obo/CHEBI_
+  EFO: http://www.ebi.ac.uk/efo/
+  HGNC: https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/
+  NCBITaxon: http://purl.obolibrary.org/obo/ncbitaxon#
+  UBERON: http://purl.obolibrary.org/obo/UBERON_
+  UniProtKB: http://purl.uniprot.org/uniprot/
+  PR: http://purl.obolibrary.org/obo/PR_
+  PW: http://purl.obolibrary.org/obo/PW_
 
 default_prefix: gocam
 default_range: string
